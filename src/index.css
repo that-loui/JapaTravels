@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Sen', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #FAF8ED;
+  ;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.testimoniesImgCarousel{
+  width: 100%;
+
+}
+@media (max-width: 767px) {
+  .carouselBigScreen{
+    display: none;
+  }
+  .carouselSmallScreen{
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (min-width:768px) {
+  .carouselBigScreen{
+    display: block;
+    width: 100%;
+
+  }
+  .testimoniesImgCarousel{
+    width: 50%;
+  }
+  .carouselSmallScreen{
+    display: none;
+  }
+}
